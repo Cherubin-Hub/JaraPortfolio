@@ -28,8 +28,13 @@ export default function ProjectGallery() {
                 <h3 className="text-xl font-bold font-heading text-foreground mb-4">
                   {project.title}
                 </h3>
+
+                {/* Project Description */}
+                <p className="whitespace-pre-line text-sm text-foreground-muted mb-4 leading-relaxed">
+                  {project.description}
+                </p>
                 
-                {/* Tags */}
+                {/* Tags
                 <div className="flex flex-wrap gap-2">
                   {project.tags.map((tag) => (
                     <span
@@ -39,7 +44,7 @@ export default function ProjectGallery() {
                       {tag}
                     </span>
                   ))}
-                </div>
+                </div> */}
               </div>
             </div>
           ))}
