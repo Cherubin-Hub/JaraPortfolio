@@ -12,7 +12,7 @@ export default function Hero() {
         <div className="flex-1 text-center md:text-left">
           {/* Badge */}
           <span className="inline-flex items-center gap-2 rounded-full border border-border bg-background-card px-4 py-1.5 text-sm text-primary-light">
-            🎨 Product Designer | UI/UX Specialist
+            📈 Training Facilitator
           </span>
 
           {/* Headline */}
@@ -58,7 +58,7 @@ export default function Hero() {
           {/* Profile image */}
           <div className="relative h-64 w-64 sm:h-80 sm:w-80 lg:h-96 lg:w-96 overflow-hidden rounded-full border-2 border-border">
             <Image
-              src="/images/profile.png"
+              src="/images/profile.jpg"
               alt="Profile photo"
               fill
               className="object-cover object-[center_20%]"

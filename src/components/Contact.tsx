@@ -38,7 +38,7 @@ export default function Contact() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
               </span>
-              Available for Freelance Projects
+              Available for Work
             </span>
             
             {/* Profile Image */}
@@ -52,11 +52,11 @@ export default function Contact() {
             <div className="space-y-3 w-full text-left mt-4 border-t border-border pt-6">
               <div>
                 <p className="text-xs text-foreground-muted mb-1">Email</p>
-                <p className="text-sm font-medium text-foreground">yourmail@example.com</p>
+                <p className="text-sm font-medium text-foreground">jjdanelle.1997@gmail.com</p>
               </div>
               <div>
-                <p className="text-xs text-foreground-muted mb-1">WhatsApp</p>
-                <p className="text-sm font-medium text-foreground">+63 912 345 6789</p>
+                <p className="text-xs text-foreground-muted mb-1">Mobile Number</p>
+                <p className="text-sm font-medium text-foreground">+63 920 705 4479</p>
               </div>
             </div>
           </div>
